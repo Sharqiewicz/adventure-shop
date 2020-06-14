@@ -1,0 +1,9 @@
+.navbar__container{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242;
+    color: white;
+}
