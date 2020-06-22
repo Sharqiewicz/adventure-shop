@@ -1,3 +1,6 @@
+body{
+    font-family: 'Notable', sans-serif;
+}
 .socials__list{
     position: absolute;
     bottom: 250px;
@@ -17,6 +20,13 @@
     background: linear-gradient(#030303, #040404, #030303);
     width: 100%;
     height: 100%;
+}
+
+.header__text{
+    color: white;
+    font-size: 42px;
+    padding: 20px 50px;
+    text-align: center;
 }
 
 .welcome__image{
