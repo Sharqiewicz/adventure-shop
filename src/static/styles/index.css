@@ -3,17 +3,38 @@ body{
 }
 .socials__list{
     position: absolute;
-    bottom: 250px;
-    left: -140px;
+    bottom: 350px;
+    left: -150px;
     transform: rotate(-90deg);
+    height: 50px;
 }
 
 .social__container {
-    font-size: 10px;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: 2px;
     display: inline-block;
     padding: 0 30px;
+    color: white;
+    padding: 25px;
+    background-color: pink;
+    transition: 0.5s;
+}
+
+.socials__list:hover .social__container{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.social--facebook:hover{
+    background-color: #3b5998;
+}
+.social--instagram:hover{
+    background-color: #bc2a8d;
+}
+
+.social--youtube:hover{
+    background-color: #FF0000;
 }
 
 .welcome__container{
