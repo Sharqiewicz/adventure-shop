@@ -50,7 +50,7 @@ body{
     text-align: center;
 }
 
-.welcome__image{
+.welcome__imgcontainer{
     width: 45vw;
     height: 100vh;
     padding:0 2vw;
@@ -65,7 +65,7 @@ body{
     margin-top: 120px;
 }
 
-.img-fluid{
+.welcome__image{
     max-width: 100%;
     max-height: 100%;
     transition: 0.5s;
@@ -85,7 +85,7 @@ body{
 .adv__button{
     background-color: black;
     outline: none;
-    width: 200px;
+    width: 250px;
     padding: 10px 0;
     font-size: 28px;
     border: 0;
@@ -100,11 +100,11 @@ body{
 }
 .adv__button:after{
     content: "";
-    width: 200px;
+    width: 250px;
     height: 100%;
     position: absolute;
     left: -80px;
-    top: -10%;
+    top: -15%;
     background-color: pink;
     z-index: -999;
     transition: 0.5s;
@@ -133,4 +133,117 @@ left: 33.3%;
 }
 .third {
 left: 66.6%;
+}
+
+.menustick__container{
+    position: absolute;
+    left: 93%;
+    bottom: 93%;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    z-index:  999;
+}
+
+.menustick__stick{
+    background-color: pink;
+    width: 100%;
+    height: 4px;
+    top: 50%;
+}
+
+.menustick__stick,
+.menustick__stick::before,
+.menustick__stick::after {
+    background-color: pink;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    content: "";
+    transition: bottom 0.08s 0s ease-out,
+                top 0.08s 0s ease-out,
+                opacity 0s linear;
+}
+
+
+.menustick__stick::before{
+    top: 0;
+}
+.menustick__stick::after{
+    bottom: 0;
+}
+
+.menustick__container.is--active  .menustick__container::before {
+        top: 50%;
+}
+
+.menustick__container.is--active  .menustick__container::after {
+    bottom: 50%;
+}
+
+.menustick__container.is--active .menustick__stick::before,
+.menustick__container.is--active .menustick__stick::after {
+    background-color: pink;
+    opacity: 0;
+    transition: bottom 0.08s ease-out,
+                top 0.08s ease-out,
+                opacity 0s 0.08s linear;
+}
+
+.menustick__container.is--active .menustick__stick {
+    background-color: pink;
+}
+.menu__list{
+    display: none;
+}
+
+
+.menu__container.is--active{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    overflow: hidden;
+}
+
+
+
+.menustick__container.is--active .menu__list{
+    display: block;
+    list-style-type: none;
+}
+.menustick__container.is--active li{
+    margin: auto;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.menustick__container.is--active li a{
+    font-size: 24px;
+    color: pink;
+}
+ul.menu__list{
+    display: none;
+}
+@media(max-width: 768px){
+    .menustick__container{
+        left: 90%;
+        bottom: 94%;
+    }
+}
+
+@media(max-width: 576px){
+
+    .menustick__container{
+        position: absolute;
+        left: 86%;
+        bottom: 91%;
+        width: 40px;
+        cursor: pointer;
+    }
 }
