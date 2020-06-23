@@ -169,10 +169,10 @@ left: 66.6%;
 
 
 .menustick__stick::before{
-    top: 0;
+    top: -10px;
 }
 .menustick__stick::after{
-    bottom: 0;
+    bottom: -10px;
 }
 
 .menustick__container.is--active  .menustick__container::before {

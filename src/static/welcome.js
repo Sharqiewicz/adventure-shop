@@ -24,3 +24,17 @@ tl.to(".first", {
 .fromTo( adv__buttons[0], {x: "+=50"}, {duration: 1, autoAlpha: 1, x:"-=50"}, "-=0.3")
 .fromTo( adv__buttons[1], {x: "+=50"}, {duration: 1, autoAlpha: 1, x:"-=50"}, "-=0.5")
 .fromTo(socials, {x: "-=100"}, { duration: 0.6, autoAlpha: 1, x:"+=100"})
+
+
+
+
+
+
+
+
+const menustick__container = document.querySelector('.menustick__container');
+const menu__container = document.querySelector('.menu__container');
+    menu__container.addEventListener('click', function(){
+        menu__container.classList.toggle('is--active')
+        console.log('yeas')
+    })
