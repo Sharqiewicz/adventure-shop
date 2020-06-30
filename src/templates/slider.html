@@ -9,21 +9,18 @@
         <!-- Slides -->
         {% for item in products %}
         <div class="swiper-slide">
-            <img src={{ item.img }}/>
-            <h3>{{ item.title }}</h3>
-            <h5>{{ item.description }}</h5>
-            <li>Price: {{ item.price }}$</li>
-            <li>Opinion: {{ item.opinion }}</li>
+            <img src={{ item.img }} class='img-slider-fluid'/>
+            <div class="slider-info">
+                <h2>{{ item.title }}</h2>
+                <li>Price: {{ item.price }}$</li>
+                <li>Opinion: {{ item.opinion }}</li>
+            </div>
         </div>
     {% endfor %}
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
 
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
 
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
 </div>
