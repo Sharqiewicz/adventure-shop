@@ -1,1 +1,11 @@
-<p>{{ title }}</p>
+<ul>
+    {% for item in products %}
+        <div>
+            <img src={{ item.img }}/>
+            <h3>{{ item.title }}</h3>
+            <h5>{{ item.description }}</h5>
+            <li>Price: {{ item.price }}$</li>
+            <li>Opinion: {{ item.opinion }}</li>
+        </div>
+    {% endfor %}
+</ul>

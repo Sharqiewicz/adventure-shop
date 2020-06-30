@@ -5,8 +5,8 @@ from .models import Product
 # Create your views here.
 
 def homepage_view(request):
-    products = Product.objects.get(id=2)
+    products = Product.objects.all()
     context = {
-        'title': products.title,
+        'products': products
     }
     return render(request, 'index.html', context)
