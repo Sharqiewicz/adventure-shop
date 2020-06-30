@@ -175,12 +175,12 @@ left: 66.6%;
     bottom: -10px;
 }
 
-.menustick__container.is--active  .menustick__container::before {
-        top: 50%;
+.menu__container.is--active  .menustick__container::before {
+        top: 0;
 }
 
-.menustick__container.is--active  .menustick__container::after {
-    bottom: 50%;
+.menu__container.is--active  .menustick__container::after {
+    bottom: 0;
 }
 
 .menustick__container.is--active .menustick__stick::before,
