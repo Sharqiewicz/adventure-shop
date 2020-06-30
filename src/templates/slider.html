@@ -1,6 +1,14 @@
-<ul>
-    {% for item in products %}
-        <div>
+<div class="slider owl-carousel owl-theme" >
+
+</div>
+
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        {% for item in products %}
+        <div class="swiper-slide">
             <img src={{ item.img }}/>
             <h3>{{ item.title }}</h3>
             <h5>{{ item.description }}</h5>
@@ -8,4 +16,14 @@
             <li>Opinion: {{ item.opinion }}</li>
         </div>
     {% endfor %}
-</ul>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
