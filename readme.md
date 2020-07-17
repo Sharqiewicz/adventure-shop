@@ -1,18 +1,32 @@
-## Adventure shop
+# Adventure Shop
 
-### Idea
+![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/shopscreen.png)
+
+---
+
+## Description
+
+### Adventure shop
+
+#### Idea
 I wanted to learn django and e-commerce, so I created a shop using it.
 
-### Technologies
- - Django
- - Python
- - Javascript
- - GSAP
- - BEM CSS
- - Swiper ( Slider library )
 
-### Link
-not hosted yet
+#### Technologies
+
+* [Django]
+* [Python]
+* [SASS(BEM)]
+* [GSAP]
+* [GIT]
+* [Swiper(Slider-library)]
+
+---
+
+## Hosting
+link to the project: not hosted yet ( not finished yet )
+
+---
 
 ### Installation
 
@@ -28,5 +42,13 @@ not hosted yet
 
 ### To do
 - All products list page
-- Menu fix
+- Menu
 - Footer
+- Responsitivity
+
+---
+
+## Author Info
+
+- Facebook - [Kacper Szarkiewicz](https://www.facebook.com/SharqizSCI/)
+- Website - [Kacper Szarkiewicz](sharqi.netlify.app)
