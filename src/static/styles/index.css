@@ -270,3 +270,25 @@ ul.menu__list{
 .swiper-button-prev, .swiper-button-next{
     color: black !important;
 }
+
+/* Footer */
+
+.footer__container{
+    width: 80vw;
+    padding: 5vh 10vw;
+    background-color: #040404;
+    color: pink;
+}
+.footer__info{
+    margin: 20px 0;
+}
+
+.info__item{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.info__item:hover{
+    cursor: pointer;
+    color: rgb(250, 170, 184);
+}
