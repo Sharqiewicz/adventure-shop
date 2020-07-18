@@ -1,13 +1,13 @@
 {% block page %}
 {% load static %}
-<!docktype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'styles/index.css'%}">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>Homepage</title>
 </head>
 <body style="margin: 0; padding: 0;">
@@ -19,6 +19,7 @@
     {% include 'header.html' %}
     {% include 'welcome.html' %}
     {% include 'slider.html' %}
+    {% include 'footer.html' %}
 
         <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
@@ -28,9 +29,9 @@
     <!-- hover-effect js -->
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="{% static 'welcome.js' %}"></script>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-  var mySwiper = new Swiper ('.swiper-container', {
+    var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -54,6 +55,7 @@
     delay: 1500,
   },
   })
+  console.log(mySwiper)
   </script>
 </body>
 </html>

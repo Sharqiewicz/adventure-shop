@@ -270,3 +270,43 @@ ul.menu__list{
 .swiper-button-prev, .swiper-button-next{
     color: black !important;
 }
+
+/* Footer */
+
+.footer__container{
+    width: 80vw;
+    padding: 5vh 10vw;
+    background-color: #040404;
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+}
+
+.footer__row{
+}
+
+.footer__info{
+    margin: 20px 0;
+}
+
+.info__item{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.info__item:hover{
+    cursor: pointer;
+    color: rgb(250, 170, 184);
+}
+
+.footer__sign{
+    margin: 50px;
+    text-align: left;
+}
