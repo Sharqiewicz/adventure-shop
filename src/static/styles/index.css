@@ -279,8 +279,14 @@ ul.menu__list{
     background-color: #040404;
     color: pink;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__content{
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 80vw;
 }
 
 .footer__row{
@@ -298,4 +304,9 @@ ul.menu__list{
 .info__item:hover{
     cursor: pointer;
     color: rgb(250, 170, 184);
+}
+
+.footer__sign{
+    margin: 50px;
+    text-align: left;
 }
