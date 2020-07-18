@@ -278,7 +278,14 @@ ul.menu__list{
     padding: 5vh 10vw;
     background-color: #040404;
     color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.footer__row{
+}
+
 .footer__info{
     margin: 20px 0;
 }
