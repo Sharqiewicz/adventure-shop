@@ -51,4 +51,4 @@ link to the project: not hosted yet ( not finished yet )
 ## Author Info
 
 - Facebook - [Kacper Szarkiewicz](https://www.facebook.com/SharqizSCI/)
-- Website - [Kacper Szarkiewicz](sharqi.netlify.app)
+- Website - [Kacper Szarkiewicz](https://sharqi.netlify.app)
