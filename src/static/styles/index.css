@@ -24,6 +24,7 @@ body{
 .socials__list:hover .social__container{
     margin-top: 50px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .social--facebook:hover{
@@ -162,9 +163,7 @@ left: 66.6%;
     height: 4px;
     position: absolute;
     content: "";
-    transition: bottom 0.08s 0s ease-out,
-                top 0.08s 0s ease-out,
-                opacity 0s linear;
+    transition: 0.7s;
 }
 
 
@@ -183,17 +182,20 @@ left: 66.6%;
     bottom: 0;
 }
 
-.menustick__container.is--active .menustick__stick::before,
-.menustick__container.is--active .menustick__stick::after {
+.is--active  .menustick__stick::before,
+.is--active  .menustick__stick::after {
     background-color: pink;
-    opacity: 0;
-    transition: bottom 0.08s ease-out,
-                top 0.08s ease-out,
-                opacity 0s 0.08s linear;
+    transition: 0.7s;
 }
 
-.menustick__container.is--active .menustick__stick {
-    background-color: pink;
+.is--active .menustick__stick::before{
+    transform: rotate(45deg) translateY(14px);
+}
+.is--active .menustick__stick::after{
+    transform: rotate(-45deg) translateY(-14px);
+}
+.is--active .menustick__stick{
+    background: transparent;
 }
 .menu__list{
     display: none;
