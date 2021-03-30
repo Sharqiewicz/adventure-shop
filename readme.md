@@ -41,10 +41,11 @@ link to the project: not hosted yet ( not finished yet )
 3. console: python3 manage.py runserver
 
 ### To do
-- All products list page
-- Menu
-- Footer
-- Responsitivity
+- Connect React to Django
+- Finish building template
+- Implement Google Analytics
+- Implement PWA
+- Implement Testing
 
 ---
 
