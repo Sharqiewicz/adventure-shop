@@ -2,7 +2,7 @@
 
 Designs
 
-![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/design/shopscreen.png)
+![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/design/MacBook1.png)
 
 ![Project Image Mobile](https://github.com/Sharqiewicz/adventure-shop/blob/master/design/iPhone1.png)
 
