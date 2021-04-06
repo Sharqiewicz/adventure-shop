@@ -1,6 +1,10 @@
 # Adventure Shop
 
-![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/shopscreen.png)
+Designs
+
+![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/design/shopscreen.png)
+
+![Project Image Mobile](https://github.com/Sharqiewicz/adventure-shop/blob/master/design/iPhone1.png)
 
 ---
 
