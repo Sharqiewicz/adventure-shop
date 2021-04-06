@@ -1,25 +1,50 @@
 # Adventure Shop
 
-![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/shopscreen.png)
+## Description
+
+An e-commerce, a premium glasses shop.
+
+I am creating this e-commerce myself:
+👉 Create website designs for Desktop and Mobile versions.
+👉 Plan, create and implement Databases
+👉 Plan, create and implement Backend Algorithms, Microservices
+👉 Plan, create and implement Frontend Layer
+
+## 🔵 TECHNOLOGIES
+
+🧑‍💻 Databases:
+👉 PostgreSQL
+
+🧑‍💻 Backend
+👉 Python
+👉 Django
+👉 Flask
+👉 RabbitMQ
+👉 Docker
+
+🧑‍💻 Frontend
+👉 React.js
+👉 Typescript
+👉 Redux
+👉 Bootstrap
+👉 GSAP
+👉 Webpack
+
+🧑‍💻 Other:
+Version Control:
+👉 Git
+
+Agile
+👉 Jira
+
+Design:
+👉 Figma
 
 ---
 
-## Description
+## Designs
 
-### Adventure shop
-
-#### Idea
-I wanted to learn django and e-commerce, so I created a shop using it.
-
-
-#### Technologies
-
-* [Django]
-* [Python]
-* [SASS(BEM)]
-* [GSAP]
-* [GIT]
-* [Swiper(Slider-library)]
+![Project Image](https://github.com/Sharqiewicz/adventure-shop/blob/master/shopscreen.png)
 
 ---
 
@@ -40,16 +65,11 @@ link to the project: not hosted yet ( not finished yet )
 2. console: source bin/activate
 3. console: python3 manage.py runserver
 
-### To do
-- Connect React to Django
-- Finish building template
-- Implement Google Analytics
-- Implement PWA
-- Implement Testing
-
 ---
 
 ## Author Info
 
 - Facebook - [Kacper Szarkiewicz](https://www.facebook.com/SharqizSCI/)
 - Website - [Kacper Szarkiewicz](https://sharqi.netlify.app)
+
+---
