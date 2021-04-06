@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaReact, FaPython} from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -28,6 +29,12 @@ export default function Footer() {
             </div>
             <div className="footer__row">
                 <div className="footer__sign">{`COPYRIGHT © ${new Date().getFullYear()} SHARQIEWICZ KACPER SZARKIEWICZ`}</div>
+                <div className="footer__technologies"> Created with
+                    <span>
+                        <FaReact/>
+                        <FaPython/>
+                    </span>
+                </div>
             </div>
         </div>
     )

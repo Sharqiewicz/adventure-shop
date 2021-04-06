@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react'
-import Menu from '../Common/Menu';
 import Footer from '../Common/Footer';
+import Navbar from '../Common/Navbar';
 import gsap from 'gsap';
 
 interface LayoutChildren{
@@ -47,7 +47,7 @@ export default function Index({children}: LayoutChildren) {
 
     return (
         <div className="default__layout" ref={ref}>
-            <Menu/>
+            <Navbar/>
             <div className="overlay first"></div>
             <div className="overlay second"></div>
             <div className="overlay third"></div>
