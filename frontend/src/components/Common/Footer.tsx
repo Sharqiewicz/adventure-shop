@@ -27,7 +27,7 @@ export default function Footer() {
 
             </div>
             <div className="footer__row">
-                <div className="footer__sign"></div>
+                <div className="footer__sign">{`COPYRIGHT © ${new Date().getFullYear()} SHARQIEWICZ KACPER SZARKIEWICZ`}</div>
             </div>
         </div>
     )

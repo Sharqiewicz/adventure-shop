@@ -19,11 +19,11 @@ export default function Header() {
             <div className="welcome__body">
                 <div className="welcome__intro">
                     <div className="adv__brand">Premium Shop</div>
-                    <button className="adv__button">découvrir</button>
-                    <button className="adv__button">explorer</button>
+                    <button className="adv__button">{translate("discover", {scope: 'home.header'})}</button>
+                    <button className="adv__button">{translate("explore", {scope: 'home.header'})}</button>
                 </div>
                 <div className="welcome__imgcontainer">
-                    <img src={HeaderPhoto} className="welcome__image"/>
+                    <img src={HeaderPhoto} className="welcome__image" alt="A model with glasses on"/>
                 </div>
             </div>
         </div>
